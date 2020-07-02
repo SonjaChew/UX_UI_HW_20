@@ -15,22 +15,20 @@ html {
 body {
     background-image: url(../images/Background.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: cover;
     background-position: absolute;
 }
-.card img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    
-}
-.container-1 {
+.container-1{
     display:flex;
     flex-direction:row;
     justify-content: space-evenly;
     margin-top: 15rem;
+}
+.card img{
+    max-height: 375px;
+    max-width: 250px;
+    margin-bottom: 10px;
 }
 .card {
     display: flex;
@@ -43,16 +41,17 @@ body {
     size: 450px;
 }
 .card-text {
-    display: flex;
-    justify-content: center;
+    margin: 0px auto;
     padding: 10px;
     text-align: center;
-    position: sticky bottom;
+    position: absolute;
+    bottom: 10px;
     font-family:'Nunito', sans-serif;
     color: #545454;
     font-size: 18px;
     border: solid #dddddd 1px; 
     border-radius: 10px;
+    width: 75%;
 }
 .head {
     display: flex;
@@ -78,12 +77,13 @@ body {
     margin: 50px;
 }
 .content-5{
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     margin: 50px;
+
 }
 .description {
     display: flex;
@@ -92,6 +92,8 @@ body {
     flex-wrap: wrap;
     font-size: 20px;
     max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .foot {
     display: flex;
