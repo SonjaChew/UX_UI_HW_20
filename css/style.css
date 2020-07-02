@@ -1,0 +1,140 @@
+/* Modify brand and text color */ 
+.myNav{ 
+    font-family:'Nunito', sans-serif;
+}
+.navbar {
+    background-image: url(../images/navlight.png);
+    background-color: transparent;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.nav-item{
+    color: white;
+}
+body {
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: absolute;
+}
+.card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    
+}
+.container-1 {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 15rem;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 0px 10px #c4c4c4;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    size: 450px;
+}
+.card-text {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    position: sticky bottom;
+    font-family:'Nunito', sans-serif;
+    color: #545454;
+    font-size: 18px;
+    border: solid #dddddd 1px; 
+    border-radius: 10px;
+}
+.head {
+    display: flex;
+    justify-content: center;
+}
+.date {
+    display: flex;
+    justify-content: center;
+}
+.content-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.content-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.content-5{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    position: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    max-width: 900px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Serif SC', serif;
+    color: #545454;
+}
+#icon {
+    text-align: right;
+    max-width: 208px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+.About {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.MyWork {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.MySkills {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.Contact {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.footer {
+    display:inline-block;
+    color: #b4aa9f;
+    font-family:'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: auto;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    text-align: center;
+    padding-top: 10px;
+    
+}
